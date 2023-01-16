@@ -1,0 +1,47 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&display=swap");
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	background-color: #13653f;
+}
+
+.App {
+	font-family: "Open Sans", sans-serif;
+}
+
+#results > h2 {
+	font-weight: bold;
+}
+
+#results > h5 {
+	margin: 5px 0;
+}
+
+input {
+	letter-spacing: 0.4rem;
+}
+
+#instructionType,
+#instructionOp,
+#instructionOpDesc {
+	color: #ff0707;
+}
+
+#footer {
+	color: #595757;
+	font-family: "Open Sans", sans-serif;
+}
+
+#linkToMyGithub {
+	color: #595757;
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+}
+
+#linkToMyGithub:hover {
+	color: #ff0707;
+}
